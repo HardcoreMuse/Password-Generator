@@ -1,0 +1,41 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Karla:wght@800&display=swap" rel="stylesheet">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+        
+    </head>
+    <body>
+        <div id="window">
+            <div class = 'toggle-switch'>
+                <label>
+                    <input id="slider" type = 'checkbox'>
+                    <span class = 'slider'></span>
+                </label>
+            </div>
+            <h1 id="main-header-el">
+                <span id="header-white">Generate a</span>
+                <span id="header-green">random password</span>                
+                </h1>
+            <p id="main-subtext-el">Never use an insescure password again</p>
+            <button id="generate-btn" onclick="pwdGen()">Generate Password</button>
+            <div id="line-div1"></div>
+            <p id="options-par">No Special Characters:  
+                <input id="switch" class="switch" type="checkbox">
+                </p>            
+            <div id="line-div2"></div>
+            <div>
+                <div id="gen-box1" class="text-box-div"></div>
+                <div id="gen-box2" class="text-box-div"></div>
+            </div>
+            <div id="copy-div"></div>
+            <script src="index.js"></script>
+        </div>
+    </body>
+</html>
